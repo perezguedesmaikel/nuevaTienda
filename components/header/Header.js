@@ -133,7 +133,7 @@ export default function Header({ categories }) {
   if (!BrandsList) return <p>No data</p>
   return ( 
     <header className="fixed top-0 left-0 right-0 w-screen z-[8888]" >
-        <div className={`relative flex justify-between   ${!darkMode?'bg-orange-500':'bg-slate-900'}  pt-4 w-screen  px-4 sm:px-5 lg:px-14 `} >
+        <div className={`relative flex justify-between   ${!darkMode?'bg-orange-500':'bg-slate-900'}  pt-4 w-screen  px-4 sm:px-5 lg:px-14 alturaCelular`} >
 
         <Link href={"/"} >
           <span>

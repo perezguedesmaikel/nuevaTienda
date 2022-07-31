@@ -51,3 +51,10 @@
   [hidden] {
     display: none !important;
   }
+/* Medias Query */
+@media (max-width: 360px) {
+       .alturaCelular{
+           padding-bottom: 25px!important;
+       }
+
+    }
